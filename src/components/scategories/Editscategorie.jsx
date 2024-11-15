@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 const Editscategorie = () => {
   return (
     <div>
-      Modifier sous categorie
+      Modifier une sous catégorie
     </div>
   )
 }

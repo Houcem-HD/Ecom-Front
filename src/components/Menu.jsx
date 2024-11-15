@@ -3,14 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-
 function Menu() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">E-commerce</Navbar.Brand>
+        <Navbar.Brand href="#">Ecommerce</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,11 +16,14 @@ function Menu() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link as={Link} to ="/categories">Categorie</Nav.Link>
-            <Nav.Link as={Link} to ="/scategories">Sous categorie</Nav.Link>
-            <Nav.Link as={Link} to ="/articles">Article</Nav.Link>
+            <Nav.Link as={Link} to ="/">Home</Nav.Link>
+            <Nav.Link as={Link} to = "categories">Catégories</Nav.Link>
+            <Nav.Link as={Link} to = "scategories">Sous Catégories</Nav.Link>
+            <Nav.Link as={Link} to = "articles">Articles</Nav.Link>
+            <Nav.Link as={Link} to = "articlescard">Articles client</Nav.Link>
             
-           
+            
+            
           </Nav>
           <Form className="d-flex">
             <Form.Control

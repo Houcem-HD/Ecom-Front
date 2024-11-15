@@ -1,9 +1,8 @@
-import React from 'react'
 
 const Viewcategorie = () => {
   return (
     <div>
-      Afficher une categorie
+      Afficher une catégorie
     </div>
   )
 }
